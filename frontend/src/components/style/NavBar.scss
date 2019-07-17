@@ -35,24 +35,22 @@
 
 .numero {
   position: relative;
-  top: 1rem;
-  left: 5rem;
   width: 14rem;
   margin-bottom: 1rem;
 }
 .reservez {
-  position: relative;
   color: white;
   font-size: 0.9rem;
   font-weight: bold;
   background: #fe0f0f;
   border-color: transparent;
   border-radius: 35px;
-  top: 3rem;
-  right: 9rem;
   width: 14rem;
   height: 2rem;
   margin-top: 1rem;
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .blockResa {
