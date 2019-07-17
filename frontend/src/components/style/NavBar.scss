@@ -1,0 +1,63 @@
+.nav-link {
+  padding-left: 0 !important;
+  padding-right: 6rem !important;
+  padding-top: 0 !important;
+  line-height: 70px !important;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  &:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 1.5px;
+    width: 0;
+    background: transparent;
+    transition: width 0.5s ease, background-color 0.5s ease;
+  }
+  &:hover:after {
+    width: 80%;
+    background: rgba($color: #b2b2b2, $alpha: 0.6);
+  }
+}
+
+.logo {
+  margin-right: 5rem;
+  margin-left: 3rem;
+  width: 6rem;
+}
+
+.bg-faded {
+  background-color: rgba(22, 48, 114, 0.5);
+}
+
+.numero {
+  position: relative;
+  top: 1rem;
+  left: 5rem;
+  width: 14rem;
+  margin-bottom: 1rem;
+}
+.reservez {
+  position: relative;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background: #fe0f0f;
+  border-color: transparent;
+  border-radius: 35px;
+  top: 3rem;
+  right: 9rem;
+  width: 14rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+.blockResa {
+  position: absolute;
+  display: block;
+  top: 0rem;
+  right: 1rem;
+}

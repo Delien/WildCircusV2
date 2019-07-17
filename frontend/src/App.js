@@ -1,12 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.scss";
+import "./components/style/NavBar.scss";
 import { Container } from "reactstrap";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <React.Fragment>
-      <header />
+      <header>
+        <NavBar />
+      </header>
       <Container />
     </React.Fragment>
   );
